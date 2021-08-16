@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url("./images/mecca3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (min-width: 475px) {
+  html {
+    height: 100%;
+  }
+}
+
+.header {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.display-container {
+  text-align: center;
+  color: white;
+  margin-top: 2%;
+}
+
+.date {
+  margin-right: 2rem;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+#country {
+  margin-right: 1rem;
+}
+
+label {
+  margin-right: 0.5rem;
+}
+
+#submit {
+  width: 5rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin: 1.5rem 48%;
+  outline-style: none;
+}
+
+.submit-button {
+  margin-left: 10px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.list {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+
+ul {
+  border: 1px solid white;
+  padding: 2rem;
+}
+
+li {
+  list-style: none;
+  line-height: 1.3em;
+  font-size: 1.3rem;
+  color: white;
+}
